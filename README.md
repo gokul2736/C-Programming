@@ -1,3 +1,29 @@
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant Browser (Ludo King)
+    participant CaptureEngine (mss)
+    participant VisionEngine (OpenCV)
+    participant StrategyEngine (Python)
+    participant OverlayUI (PyQt6)
+    participant ChatConsole
+
+    User->>Browser (Ludo King): Starts Game
+    
+    loop Real-time Vision Loop (30 FPS)
+        CaptureEngine->>VisionEngine: Send screenshot
+        VisionEngine->>StrategyEngine: Detect Tokens & Dice
+        StrategyEngine->>OverlayUI: Send Best Move
+        OverlayUI->>OverlayUI: Draw glowing indicator on token
+    end
+
+    %% Conversational interaction
+    User->>ChatConsole: Texts "Why move this token? What's the plan?"
+    ChatConsole->>StrategyEngine: Query current reasoning
+    StrategyEngine-->>ChatConsole: "It's highly vulnerable to Red. Moving it to the star tile secures it."
+    ChatConsole-->>User: Displays response
+```
 # C-Programming
 Assignment for attendance on 25.04.2026
 
