@@ -1,8 +1,8 @@
 # C-Programming
 Assignment for attendance on 13.05.2026
 
-Name: Markandeyan Gokul
-Register Number: 212224240086
+## Name: Markandeyan Gokul
+## Register Number: 212224240086
 
 ## Questions
 
@@ -25,10 +25,8 @@ int main() {
 }
 ```
 ### Output
-```text
-Enter a number: 5
-Factorial of 5 is 120
-```
+<img width="546" height="400" alt="Screenshot 2026-05-13 093719" src="https://github.com/user-attachments/assets/9b737d89-0a01-4137-b1d5-bfb552647393" />
+
 
 ## 2. Write a C program to print Fibonacci series using recursion.
 ### Program
@@ -53,10 +51,8 @@ int main() {
 }
 ```
 ### Output
-```text
-Enter the number of terms: 6
-Fibonacci series: 0 1 1 2 3 5 
-```
+<img width="538" height="343" alt="Screenshot 2026-05-13 094100" src="https://github.com/user-attachments/assets/90c67db3-3939-46ee-819c-15425d117d30" />
+
 
 ## 3. Write a C program to find the sum of natural numbers using recursion.
 ### Program
@@ -77,10 +73,8 @@ int main() {
 }
 ```
 ### Output
-```text
-Enter a number: 5
-Sum of natural numbers up to 5 is 15
-```
+<img width="505" height="349" alt="Screenshot 2026-05-13 094328" src="https://github.com/user-attachments/assets/bd1927ef-d702-4c87-91c5-ea05b7ae216d" />
+
 
 ## 4. Write a C program to reverse a number using recursion.
 ### Program
@@ -106,10 +100,8 @@ int main() {
 }
 ```
 ### Output
-```text
-Enter a number: 1234
-Reversed number: 4321
-```
+<img width="518" height="358" alt="Screenshot 2026-05-13 094256" src="https://github.com/user-attachments/assets/4054b1cd-b912-4067-84a3-58341a222802" />
+
 
 ## 5. Write a C program to find the power of a number using recursion.
 ### Program
@@ -130,7 +122,5 @@ int main() {
 }
 ```
 ### Output
-```text
-Enter base and exponent: 2 4
-2^4 = 16
-```
+<img width="517" height="355" alt="image" src="https://github.com/user-attachments/assets/f79b9530-8516-436c-a979-4d799130d5df" />
+
